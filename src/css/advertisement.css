@@ -1,0 +1,88 @@
+.advertisement {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+background-color: #fbfbfb;
+}
+.advertisement-conteiner{
+  padding-top: 80px;
+  padding-bottom: 80px;
+  padding-left: 10px;
+  padding-right: 10px;
+ max-width: 375px;
+     
+ }
+.advertisement-text {
+max-width: 335px;
+max-height: 306px;
+font-family: "Inter Tight", sans-serif;
+font-weight: 600;
+font-size: 48px; 
+line-height: 1.04;
+letter-spacing: -0.01em;
+text-transform: uppercase;
+color: #141414;
+}
+.advertisement-text-change {
+    display: flex;
+    flex-direction: column;   
+     background-color: #576f35;
+    border-radius: 12px;
+max-width: 355px;
+max-height: 102px;
+    color: #fbfbfb;
+    padding-left: 10px;
+padding-right: 10px;
+padding-top: 3px;
+
+
+}
+
+@media screen and (min-width: 768px) {
+    .advertisement-conteiner{
+        padding-top: 100px;
+        padding-bottom: 100px;
+        padding-left: 16px;
+        padding-right: 16px;
+       max-width: 768px;
+           
+       }
+      .advertisement-text {
+      max-width: 704px;
+      max-height: 280px;
+      font-size: 64px; 
+      line-height: 1.09;
+      }
+      .advertisement-text-change {
+      max-width: 736px;
+      max-height: 86px;
+          padding-left: 16px;
+      padding-right: 16px;
+      padding-top: 8px;
+    
+      }
+}
+@media screen and (min-width: 1280px){
+    .advertisement-conteiner{
+    padding: 100px;
+     max-width: 1280px;
+    }
+    .advertisement-text {
+    max-width: 1054px;
+    max-height: 240px;
+    font-size: 76px; 
+    line-height: 1.05;
+
+
+    }
+    .advertisement-text-change {
+        display: inline-flex;
+    max-width: 808px;
+    max-height: 86px;
+        padding-right: 0px;
+    padding-left: 13px;
+    padding-top: 0px;
+ 
+    }
+    
+}
