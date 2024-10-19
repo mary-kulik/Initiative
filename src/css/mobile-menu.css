@@ -23,7 +23,7 @@
 .mobile-menu-container {
   display: flex;
   flex-direction: column;
-  position: absolute;
+  position: relative;
   right: 0;
   height: 100%;
   padding-top: 240px;
@@ -35,6 +35,7 @@
 .mobile-menu-close {
   position: absolute;
   stroke-width: 3px;
+  stroke-linecap: round;
   stroke: #fbfbfb;
   background-color: #7a3145;
   border: transparent;
@@ -119,17 +120,22 @@
   }
 
   .mobile-menu-container {
-    padding-top: 228px;
+    position: absolute;
+    padding-top: 360px;
     padding-bottom: 50px;
     max-width: 351px;
     background-color: #7a3145;
   }
 
   .mobile-nav-link {
+    font-size: 16px;
+    line-height: 1.25;
     width: 123px;
   }
 
   .mobile-shop {
+    font-size: 18px;
+    line-height: 1.11;
     width: 157px;
     height: 52px;
   }
