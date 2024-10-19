@@ -9,7 +9,11 @@
 }
 .reviews-container {
     max-width: 335px;
-    margin: 0 auto;
+    margin:0 auto ;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
 }
 .reviews-info {
     display: flex;
