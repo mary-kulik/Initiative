@@ -58,10 +58,9 @@
         justify-content: center;
         width: 100%;
     }
-    .reviews-item {
-        display: none;
-    }
-    .reviews-list li:nth-child(1) {
+    
+    
+    .reviews-item-first {
         display: block;
         border-radius: 24px;
         border: 1px solid rgba(122, 49, 69, 0.3);
@@ -72,18 +71,28 @@
         width: 100%;
       
     }
+    .reviews-item-second {
+        display: none;
+    }
+    .reviews-item-third {
+    display: none;
+    }
     .reviews-content {
         display: flex;
         flex-direction: column;
         gap: 24px;
         justify-content: space-between;
         align-items: center;
+        overflow: hidden;
     }
         img {
             display: block;
             max-width: 100%;
             max-height: 100%;
             background-color: #FBFBFB;
+        }
+        .reviews-foto{
+            overflow: hidden;
         }
         .information {
             display: flex;
@@ -142,13 +151,19 @@
         }
     .reviews-list {
        gap: 18px;
-        }
- .reviews-list li:nth-child(1),
- .reviews-list li:nth-child(2) {
-  padding: 20px;
-  flex-basis: calc((100% - 18px) / 2);
-     }
-   .reviews-subtitle {
+       }
+    .reviews-item-first,
+     .reviews-item-second {
+        display: block;
+        border-radius: 24px;
+        border: 1px solid rgba(122, 49, 69, 0.3);
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+        flex-basis: calc((100% - 18px) / 2);
+    }
+  .reviews-subtitle {
     
     font-size: 18px;
     line-height: 19.8px;
@@ -168,10 +183,16 @@
 .reviews-list {
      gap: 25px;
         }
-.reviews-list li:nth-child(1),
-.reviews-list li:nth-child(2),
-.reviews-list li:nth-child(3) {
-    padding: 20px;
+.reviews-item-first,
+.reviews-item-second,
+.reviews-item-third {
+    display: block;
+    border-radius: 24px;
+    border: 1px solid rgba(122, 49, 69, 0.3);
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
     flex-basis: calc((100% - 50px) / 3);
             }
         }
