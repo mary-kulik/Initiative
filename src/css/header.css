@@ -1,1 +1,166 @@
+.page-header {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.00);
+    z-index: 99999;
+}
 
+.header-nav-list-menu {
+    display: none;
+}
+
+.heder-desktop-button {
+    display: none;
+}
+
+.page-header-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+}
+
+.logo-page-header {
+    display: flex;
+    align-items: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    
+    
+}
+
+.page-logo-icon {
+    line-height: 0;
+    width: 16px;
+    height: 16px;
+    fill: #fbfbfb;
+    margin-right: 4px;
+}
+
+.page-logo-icont-txt {
+    line-height: 0;
+    fill: #fbfbfb;
+    width: 16px;
+    height: 168px;
+   
+}
+
+@media screen and (max-width: 767px) {
+    .mobile-icon-header {
+        line-height: 0;
+        border: none;
+        background-color: transparent;
+        padding: 0;
+        
+        
+    }
+    
+        .burger-icon-mobile {
+            stroke-width: 3px;
+            stroke: #fbfbfb;
+            fill: none;
+        }
+}
+
+@media screen and (min-width: 768px) {
+    .page-header {
+        top: 42px;
+    }
+
+    .mobile-icon-header {
+            line-height: 0;
+            border: none;
+            background-color: transparent;
+            padding: 0;
+    
+    
+        }
+    
+        .burger-icon-mobile {
+            stroke-width: 3px;
+            stroke: #fbfbfb;
+            fill: none;
+        }
+
+}
+
+
+
+@media screen and (min-width: 1280px) {
+    .container {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    
+    .page-header {
+        top: 32px;
+    }
+    
+    .mobile-icon-header {
+        display: none;
+    }
+
+        
+
+    .heder-desktop-button {
+        display: flex;
+        font-family: "Inter Tight", sans-serif;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 1.11111;
+        letter-spacing: -0.01em;
+        text-transform: uppercase;
+        color: #fbfbfb;
+        border-radius: 30px;
+        border: none;
+        padding: 16px 32px;
+        min-width: 157px;
+        height: 52px;
+        background: #7a3145;
+        
+    }
+
+    .heder-desktop-button:hover,
+    .heder-desktop-button:focus {
+        background: #622133;
+    }
+
+    .page-header-container {
+        column-gap: 20px;
+    }
+
+    .header-nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-grow: 1;
+    }
+    
+
+    .header-nav-list-menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        column-gap: 8px;
+    }
+
+    .header-nav-link {
+        font-family: "Inter Tight", sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.25;
+        letter-spacing: -0.02em;
+        text-align: center;
+        color: #fbfbfb;
+        padding: 12px;
+        width: 114px;
+        height: 44px;
+        border-radius: 12px;
+        border: 1px solid rgba(251, 251, 251, 0.4);
+    }
+}
