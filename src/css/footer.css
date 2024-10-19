@@ -43,10 +43,14 @@
   justify-content: center;
 }
 .icon-txt {
-  width: 148px;
-  height: 12px;
   stroke: none;
   fill: #fbfbfb;
+}
+@media screen and (min-width: 768px) {
+  .icon-txt {
+    width: 194px;
+    height: 18px;
+  }
 }
 .footer-icon {
   stroke: none;
