@@ -8,6 +8,8 @@
     max-width: 375px;
     display: flex;
     flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .hero-title {
@@ -37,8 +39,6 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    margin-left: -20px;
-    margin-right: -20px;
 }
 @media screen and (min-device-pixel-ratio: 2),
 screen and (min-resolution: 192dpi),
@@ -54,6 +54,8 @@ screen and (min-resolution: 2dppx) {
 @media screen and (min-width: 768px) {
     .hero-text-container {
         max-width: 768px;
+        padding-left: 32px;
+        padding-right: 32px;
     }
 
     .hero-title {
@@ -75,8 +77,6 @@ screen and (min-resolution: 2dppx) {
             url(/img/hero/hero-tab.jpg);
         height: 539px;
         max-width: 768px;
-        margin-left: -32px;
-        margin-right: -32px;
     }
     @media screen and (min-device-pixel-ratio: 2),
     screen and (min-resolution: 192dpi),
@@ -98,8 +98,6 @@ screen and (min-resolution: 2dppx) {
             url(/img/hero/hero-desk.jpg);
         width: 650px;
         height: 100%;
-        margin-left: 0;
-        margin-right: -80px;
     }
 
     .hero-container {
@@ -110,7 +108,6 @@ screen and (min-resolution: 2dppx) {
     .hero-text-container {
         width: 630px;
         padding-left: 100px;
-        padding-right: 28px;
     }
 
         .hero-title {
