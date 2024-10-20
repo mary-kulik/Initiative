@@ -11,7 +11,7 @@
     display: none;
 }
 
-.heder-desktop-button {
+.header-desktop-button {
     display: none;
 }
 
@@ -26,76 +26,52 @@
 }
 
 .logo-page-header {
-    display: flex;
-    align-items: center;
+    display: inline-block;
     padding-top: 8px;
     padding-bottom: 8px;
-    
-    
 }
 
-.page-logo-icon {
-    line-height: 0;
-    width: 16px;
-    height: 16px;
+.page-logo-icons {
+    display: block;
     fill: #fbfbfb;
-    margin-right: 4px;
 }
 
-.page-logo-icont-txt {
-    line-height: 0;
-    fill: #fbfbfb;
-    width: 16px;
-    height: 168px;
-   
-}
+ .mobile-icon-header {
+     line-height: 0;
+     border: none;
+     background-color: transparent;
+     padding: 0;
 
-@media screen and (max-width: 767px) {
-    .mobile-icon-header {
-        line-height: 0;
-        border: none;
-        background-color: transparent;
-        padding: 0;
-        
-        
-    }
-    
-        .burger-icon-mobile {
-            stroke-width: 3px;
-            stroke: #fbfbfb;
-            fill: none;
-        }
-}
+
+ }
+
+ .burger-icon-mobile {
+     stroke-width: 3px;
+     stroke: #fbfbfb;
+     fill: none;
+ }
+
+
 
 @media screen and (min-width: 768px) {
     .page-header {
         top: 42px;
     }
 
-    .mobile-icon-header {
-            line-height: 0;
-            border: none;
-            background-color: transparent;
-            padding: 0;
-    
-    
-        }
-    
-        .burger-icon-mobile {
-            stroke-width: 3px;
-            stroke: #fbfbfb;
-            fill: none;
-        }
+    .page-logo-icons {
+        width: 194px;
+        height: 18px;
+    }
 
+    .burger-icon-mobile {
+        width: 40px;
+        height: 40px;
+    }
 }
 
 
 
 @media screen and (min-width: 1280px) {
-    .container {
-        padding-left: 100px;
-        padding-right: 100px;
-    }
     
     .page-header {
         top: 32px;
@@ -105,9 +81,12 @@
         display: none;
     }
 
-        
+    .logo-page-header { 
+        padding-top: 17px;
+        padding-bottom: 17px;
+    }
 
-    .heder-desktop-button {
+    .header-desktop-button {
         display: flex;
         font-family: "Inter Tight", sans-serif;
         font-weight: 600;
@@ -119,15 +98,22 @@
         border-radius: 30px;
         border: none;
         padding: 16px 32px;
+        margin-left: auto;
         min-width: 157px;
         height: 52px;
-        background: #7a3145;
+        background-color: #7a3145;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
         
     }
 
-    .heder-desktop-button:hover,
-    .heder-desktop-button:focus {
-        background: #622133;
+    .header-desktop-button:hover,
+    .header-desktop-button:focus {
+        background-color: #622133;
+    }
+
+    .header-desktop-button:active {
+        color: #7a3145;
+        background-color: #fbfbfb;
     }
 
     .page-header-container {
@@ -147,6 +133,7 @@
         justify-content: space-between;
         align-items: center;
         column-gap: 8px;
+        margin-left: auto;
     }
 
     .header-nav-link {
