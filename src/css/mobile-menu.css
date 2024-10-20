@@ -1,4 +1,5 @@
 .mobile-menu {
+  z-index: 9999999;
   display: flex;
   flex-direction: column;
   position: fixed;
@@ -147,7 +148,7 @@
   }
 }
 
-@media screen and (min-width: 1158px) {
+@media screen and (min-width: 1280px) {
   .mobile-menu {
     display: none;
   }
