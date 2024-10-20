@@ -67,13 +67,15 @@
   margin-bottom: 40px;
 }
 
-.how-it-works-list {
-  display: flex;
-  flex-direction: column;
-  column-gap: 20px;
+.how-div {
   margin-left: auto;
   margin-right: auto;
   justify-content: center;
+}
+.how-it-works-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .how-it-works-box {
@@ -89,6 +91,8 @@
   height: 76px;
   gap: 24px;
   background: #fbfbfb;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .how-it-works-number {
@@ -110,6 +114,40 @@
   max-width: 208px;
   max-height: 42px;
 }
+
+.how-it-works-number-text-first {
+  font-family: 'Inter Tight', sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.16667;
+  letter-spacing: -0.02em;
+  color: rgba(20, 20, 20, 0.6);
+  max-width: 208px;
+  max-height: 42px;
+}
+
+.how-it-works-number-text-second {
+  font-family: 'Inter Tight', sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.16667;
+  letter-spacing: -0.02em;
+  color: rgba(20, 20, 20, 0.6);
+  max-width: 176px;
+  max-height: 28px;
+}
+
+.how-it-works-number-text-third {
+  font-family: 'Inter Tight', sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.16667;
+  letter-spacing: -0.02em;
+  color: rgba(20, 20, 20, 0.6);
+  max-width: 211px;
+  max-height: 28px;
+}
+
 .how-it-works-text-change-ol {
   font-weight: 700;
   color: #141414;
@@ -117,6 +155,25 @@
 
 ol {
   list-style-type: none;
+}
+
+body {
+  counter-reset: section;
+}
+
+.how-ol::before {
+  display: flex;
+  counter-increment: section;
+  content: counter(section);
+  background-color: #7a3145;
+  border: solid;
+  border-width: 5px;
+  border-color: rgba(122, 49, 69, 0.3);
+  height: 42px;
+  width: 42px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
 }
 
 @media only screen and (min-width: 768px) {
@@ -150,6 +207,25 @@ ol {
     width: 450px;
     height: 76px;
   }
+  .how-it-works-number-text-first {
+    font-size: 16px;
+    line-height: 1.25;
+    max-width: 325px;
+    max-height: 40px;
+  }
+  .how-it-works-number-text-second {
+    font-size: 16px;
+    line-height: 1.25;
+    max-width: 323px;
+    max-height: 20px;
+  }
+
+  .how-it-works-number-text-third {
+    font-size: 16px;
+    line-height: 1.25;
+    max-width: 323px;
+    max-height: 40px;
+  }
 }
 
 @media only screen and (min-width: 1280px) {
@@ -170,5 +246,8 @@ ol {
   }
   .how-it-works-container {
     max-width: 1120px;
+  }
+  .how-it-works-container {
+    margin: 0;
   }
 }
