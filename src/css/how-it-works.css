@@ -232,6 +232,7 @@ body {
   .how-it-works-div {
     display: flex;
     flex-direction: row;
+    justify-content: center;
   }
   .how-it-works-first {
     max-width: 630px;
