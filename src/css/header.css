@@ -76,6 +76,10 @@
     .page-header {
         top: 32px;
     }
+
+    .container {
+            padding: 0;
+        }
     
     .mobile-icon-header {
         display: none;
