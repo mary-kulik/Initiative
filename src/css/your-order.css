@@ -166,8 +166,8 @@
 
 .your-order-social-links-img {
   border-radius: 15px;
-  background: rgba(20, 20, 20, 0.3),
-    url('/img/your-order/your-order-img-mob.jpg');
+  background-color: rgba(20, 20, 20, 0.3);
+  background: url('/img/your-order/your-order-img-mob.jpg');
   margin-bottom: 20px;
   display: block;
   overflow: hidden;
@@ -345,7 +345,7 @@
 
   .your-order-text {
     font-size: 16px;
-    line-height: 1.25m;
+    line-height: 1.25;
   }
 
   .your-order-social-links-img {
