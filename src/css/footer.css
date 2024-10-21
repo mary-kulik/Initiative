@@ -35,8 +35,7 @@
     line-height: 1.25;
   }
 }
-.footer-txt {
-}
+
 .footer-icons {
   display: flex;
   align-items: center;
@@ -104,7 +103,6 @@
 @media screen and (min-width: 768px) {
   .footer-gaps {
     flex-direction: row;
-    gap: none;
     margin-bottom: 100px;
     justify-content: space-between;
   }
