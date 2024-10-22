@@ -145,5 +145,13 @@
     height: 44px;
     border-radius: 12px;
     border: 1px solid rgba(251, 251, 251, 0.4);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+            color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
+.header-nav-link:hover,
+.header-nav-link:focus {
+    color: #7a3145;
+    background-color: #fbfbfb;
+}
+
 }
