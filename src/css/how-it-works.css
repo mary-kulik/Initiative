@@ -236,6 +236,13 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    background-image: linear-gradient(
+      to right,
+      #7a3145,
+      #7a3145,
+      #576f35,
+      #576f35
+    );
   }
   .how-it-works-first {
     max-width: 630px;
@@ -244,7 +251,6 @@ body {
   }
   .how-it-works-second {
     max-width: 650px;
-
     padding-bottom: 160px;
     padding-left: 100px;
     padding-right: 100px;
