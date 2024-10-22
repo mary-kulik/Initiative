@@ -92,7 +92,7 @@
   }
 }
 @media only screen and (min-width: 1280px) {
-  .vegetables-section {
+  .vegetables-container {
     padding-left: 20px;
     padding-right: 20px;
   }
