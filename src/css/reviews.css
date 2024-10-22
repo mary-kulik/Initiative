@@ -182,6 +182,7 @@ img {
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 20px;
+    height: 258px;
     flex-basis: calc((100% - 50px) / 3);
   }
 }
