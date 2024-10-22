@@ -68,7 +68,7 @@
   font-size: 28px;
   line-height: 1;
   letter-spacing: -0.01em;
-  transition: text-decoration 500ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 500ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .anchor-item:focus,
 .anchor-item:hover,
@@ -76,12 +76,17 @@
   text-decoration: underline;
   color: #dcd2d2;
 }
+.tel-hover {
+  transition: color 500ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 .footer-hover:hover,
 .footer-hover:focus {
   color: #fbfbfb;
   text-decoration: underline;
 }
-
+.footer-hover {
+  transition: color 500ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 .anchor-list {
   display: flex;
   gap: 14px;
