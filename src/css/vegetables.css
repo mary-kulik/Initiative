@@ -1,6 +1,6 @@
 /*===vegetables===*/
 
-.vegetables-container {
+.vegetables-section {
   padding-top: 80px;
   padding-bottom: 80px;
 }
@@ -60,7 +60,7 @@
 }
 
 @media only screen and (min-width: 768px) {
-  .vegetables-container {
+  .vegetables-section {
     padding-top: 100px;
     padding-bottom: 100px;
   }
@@ -92,7 +92,7 @@
   }
 }
 @media only screen and (min-width: 1280px) {
-  .vegetables-container {
+  .vegetables-section {
     padding-left: 20px;
     padding-right: 20px;
   }
