@@ -90,7 +90,8 @@
   color: #141414;
 }
 
-.your-order-form-inp:focus {
+.your-order-form-inp:focus,
+.your-order-textarea:focus {
   border-color: #7a3145;
 }
 
@@ -99,6 +100,10 @@
 }
 
 .your-order-form-inp:not(:placeholder-shown):valid {
+  border-color: #3cbc81;
+}
+
+.your-order-textarea:not(:placeholder-shown):valid {
   border-color: #3cbc81;
 }
 
@@ -160,7 +165,7 @@
 
 .your-order-btn:hover,
 .your-order-btn:focus {
-    background-color: #405425;
+  background-color: #405425;
 }
 
 .your-order-social-links-wrp {
@@ -200,7 +205,6 @@
 
 .your-order-social-links-item {
   position: relative;
-
 }
 
 .your-order-social-links-item:not(:last-child)::after {
@@ -223,14 +227,13 @@
   color: #fbfbfb;
 
   display: inline-block;
-  transition: transform 0.3s ease-in-out; 
+  transition: transform 0.3s ease-in-out;
 }
 
 .your-order-link:hover,
 .your-order-link:focus {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
-
 
 /* #endregion mobile */
 
